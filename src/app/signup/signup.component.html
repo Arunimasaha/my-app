@@ -1,0 +1,13 @@
+<div class = "signup">
+ 
+  <label>Full name</label>
+  <input type="text" [(ngModel)]="user.name" class="form-control" required><br><br>
+  <label>Email ID</label>
+  <input type="email" [(ngModel)]="user.emailid" class="form-control" required><br><br>
+  <label>Password</label>
+  <input type="password" [(ngModel)]="user.password" class="form-control" required><br><br>
+  <label>Verify Password</label>
+  <input type="password" [(ngModel)]="verifypassword" class="form-control" required><br><br>
+  <button  (click) = "signup();">SUBMIT</button>
+
+</div>
